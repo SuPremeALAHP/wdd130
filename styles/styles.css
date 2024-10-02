@@ -1,22 +1,53 @@
 :root {
-    --main-color: #3498db
-    --font-size: #16px
+    --primary-color: #d9dbf1;
+    --secondary-color: #d0cdd7;
+    --accent1-color: #acb0bd;
+    --accent2-color: #416165;
+    --font-color: #0b3948;
+    --font-size: 16px;
 }
+
+body {
+    font-family: "Crimson Text", serif;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    font-size: var(--font-size);
+}
+
 nav a {
-    color: white;
-    display: block;
-    padding: 20px
+    color: var(--font-color);
+    background-color: var(--accent2-color);
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
 }
+
 h1 {
-    color: steelblue
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--accent2-color);
 }
+
+p {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+}
+
 img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
-    padding: 2x;
+    padding: 2px;
     box-shadow: 0 0 30px gray;
 }
-p {
+
+footer {
+    background-color: var(--secondary-color);
+    text-align: center;
     padding: 10px;
+    font-size: 0.9em;
 }
