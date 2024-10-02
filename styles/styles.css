@@ -1,6 +1,6 @@
-nav {
-    background-color: steelblue;
-    padding: 1px
+:root {
+    --main-color: #3498db
+    --font-size: #16px
 }
 nav a {
     color: white;
@@ -15,7 +15,7 @@ img {
     height: auto;
     border: 1px solid steelblue;
     padding: 2x;
-    box-shadw: 0 0 30px gray;
+    box-shadow: 0 0 30px gray;
 }
 p {
     padding: 10px;
