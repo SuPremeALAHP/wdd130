@@ -1,0 +1,91 @@
+Vy<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | White Water Rafting</title>
+    <meta name="description" content="Get in touch with White Water Rafting. Ask questions, get details, and more.">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo4_200.png" alt="White Water Rafting Logo" class="logo">
+        <h1>White Water Rafting</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Address: 123 Rafting Lane, River City, RC 12345</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: info@whiterafting.com</p>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=location" width="400" height="300" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="employee-gallery">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Employee 1">
+                    <figcaption>John Doe - Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Employee 2">
+                    <figcaption>Jane Smith - Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/loyee03.jpg" alt="Employee 3">
+                    <figcaption>Tom White - Support</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label>Purpose of Message:</label>
+                <input type="radio" id="general" name="purpose" value="general" required>
+                <label for="general">General Inquiry</label><br>
+                <input type="radio" id="reservation" name="purpose" value="reservation">
+                <label for="reservation">Reservation Question</label><br>
+                <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                <label for="suggestion">Website Suggestion</label>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 White Water Rafting | Designed by Kingsley Chimdiebere Oparah</p>
+        <a href="wireframe-link">View Wireframe</a>
+    </footer>
+</body>
+
+</html>

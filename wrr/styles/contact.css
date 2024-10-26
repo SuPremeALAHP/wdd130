@@ -1,0 +1,42 @@
+.contact-info {
+    margin: 20px;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.employee-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.employee-gallery img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.contact-form {
+    margin: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: var(--color4);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
